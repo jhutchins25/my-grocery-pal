@@ -1,0 +1,77 @@
+.masthead {
+	
+	height: 10em;
+	
+}
+
+.masthead .title {
+	
+	margin: 0 auto;
+	text-align: center;
+	width: 8em;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	color: #d70816;
+  	font-family: 'Give You Glory';
+  	font-size: 6em;
+}
+.container {
+	background-image: url('../images/grocery-store-snacks.jpg');
+	background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 115rem;
+
+}
+.new-item>div, .past-item>div {
+	display: inline-block;
+	margin-top:6em;
+}
+
+.box-1 {
+	padding-left: 15em;
+}
+
+
+.past-item{
+	text-align: center;
+}
+
+
+
+.the-list {
+	
+	width:80em;
+	height: 30em;
+	margin: 0 auto;
+	background-image: url('../images/Paper.jpg');
+	display: table;
+	background-repeat: no-repeat;
+	
+}
+
+ul {
+	
+	font-size: x-large;
+	padding-left: 3.5em;
+}
+ul>li {
+	display: table-row;
+	line-height: 2.083em;	
+}
+
+input[type="checkbox"] {
+	width:1.25em;
+	height:1.25em;
+	margin-right: 1em;
+}
+
+li .fa-edit, li .fa-remove {
+	font-size: xx-large;
+	margin-right: .75em;
+}
+
+li .fa-remove {
+	color: red;
+}
